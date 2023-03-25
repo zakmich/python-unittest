@@ -13,4 +13,5 @@ class TestClass(unittest.TestCase):
         self.assertEqual("#".join(["sport", "gym"]), "sport#gym")
 
     def test_case4(self):
-        self.assertTrue("Apple".islower())
+        self.assertTrue("apple".islower())
+

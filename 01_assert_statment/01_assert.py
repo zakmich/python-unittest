@@ -1,5 +1,5 @@
-condition = False
+condition = True
 # if not condition:
-#     raise AssertionError("Assertion message.")
+#      raise AssertionError("Assertion message.")
 
 assert condition, "Assertion message."
