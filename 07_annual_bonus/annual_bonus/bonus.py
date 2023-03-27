@@ -18,9 +18,9 @@ class AnnualBonus:
     def calculate_bonus(self):
         return (self.annual_salary * (self.annual_assessment - 100)/100)
 
-ann = AnnualBonus("Michal", "Zak", "", 60000, 105)
-ann2 = AnnualBonus("Michal", "Zak", "1", 70000, 106)
-
-
+# ann = AnnualBonus("Michal", "Zak", "", 60000, 107)
+# ann2 = AnnualBonus("Michal", "Zak", "1", 70000, 105)
+#
+#
 # print(ann, ann.email, ann.calculate_bonus())
 # print(ann2, ann2.email, ann2.calculate_bonus())
