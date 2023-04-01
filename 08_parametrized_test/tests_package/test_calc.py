@@ -1,6 +1,7 @@
 import unittest
 from calculator.calc_simple import CalcSimple
 
+
 class TestCalcSimple(unittest.TestCase):
 
     def test_add1(self):
@@ -18,4 +19,3 @@ class TestCalcSimple(unittest.TestCase):
     def test_add4(self):
         calc = CalcSimple()
         self.assertEqual(calc.add(-2, -5), -7)
-
